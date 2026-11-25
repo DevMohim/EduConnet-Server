@@ -1,3 +1,15 @@
 import { db } from "./db.js";
 
 export const studentsCollection = db.collection('students')
+export const usersCollection = db.collection('user')
+export const categoriesCollection = db.collection('categories')
+export const coursesCollection = db.collection('courses')
+export const sectionsCollection = db.collection('sections')
+export const enrollmentsCollection = db.collection('enrollments')
+export const lessonProgressCollection = db.collection('lessonProgress')
+export const assignmentsCollection = db.collection('assignments')
+export const submissionsCollection = db.collection('submissions')
+export const quizesCollection = db.collection('quizes')
+export const quizeAttempsCollection = db.collection('quizeAttemps')
+export const certificationsCollection = db.collection('certifications')
+export const transactionsCollection = db.collection('transactions')
